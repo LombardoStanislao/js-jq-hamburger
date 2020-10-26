@@ -2,7 +2,14 @@
 
 // Intercetto il click sull'hamburger menu
 
-$('a i.fa-bars').click(function()) {
-    alert('click');
+$('a i.fa-bars').click(function() {
 
-}
+    // Visualizzo il menu
+    $('div.hamburger-menu').show();
+});
+
+$('a i.fa-times').click(function() {
+
+    // Nascondo il Menu
+    $('div.hamburger-menu').hide();
+})
